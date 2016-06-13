@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
-  # config.vm.network "forwarded_port", guest: 80, host: 8080
+   config.vm.network "forwarded_port", guest: 9200, host: 9200
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -71,5 +71,16 @@ Vagrant.configure(2) do |config|
      sudo apt-get update
      sudo apt-get install ansible -y
      sudo apt-get install git -y
+
+    # install java
+     sudo apt-get install openjdk-7-jre-headless -y
+
+    # install elasticsearch
+     wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.1.1.deb
+     sudo dpkg -i elasticsearch-1.1.1.deb
+     sudo service elasticsearch start
+
+    # install head
+     sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
    SHELL
 end
