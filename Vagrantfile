@@ -70,6 +70,6 @@ Vagrant.configure(2) do |config|
      sudo apt-get install software-properties-common
      sudo apt-get update
      sudo apt-get install ansible -y
-     sudo apt-get install git
+     sudo apt-get install git -y
    SHELL
 end
