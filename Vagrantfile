@@ -73,6 +73,7 @@ Vagrant.configure(2) do |config|
      sudo apt-get update
      sudo apt-get install ansible -y
      sudo apt-get install git -y
+     sudo apt-get install curl -y
 
     # install java
      sudo apt-get install openjdk-7-jre-headless -y
