@@ -3,6 +3,7 @@
 A virtual machine that installs elasticsearch to sandbox and test locally
 
 Dependencies
+	
 	VirtualBox 
 	https://www.virtualbox.org/wiki/Downloads
 
