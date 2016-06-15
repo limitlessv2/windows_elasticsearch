@@ -11,6 +11,7 @@ Dependencies
 	https://www.vagrantup.com/downloads.html
 
 Once cloned, run a shell into the location and run the command:
+	
 	vagrant up
 
 This does the following
@@ -34,4 +35,6 @@ To have a simple query interface to the cluster install the chrome plugin Sense 
 Where to go from here?
 	
 	It is possible to halt or suspend the vm although I usually keep the cluster on all times
-	When getting rid of the cluster I run the command vagrant destroy which takes care of all the cleanup
+	When getting rid of the cluster I run the command 
+		vagrant destroy 
+	which takes care of all the cleanup
