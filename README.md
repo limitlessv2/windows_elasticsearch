@@ -25,6 +25,7 @@ Once the machine is running, ssh in with the command
 	vagrant ssh
 
 If prompted for a passphrase and later a password
+
 	press enter for the passphrase and
 	"vagrant" for the password
 
