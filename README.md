@@ -24,6 +24,10 @@ Once the machine is running, ssh in with the command
 	
 	vagrant ssh
 
+If prompted for a passphrase and later a password
+	press enter for the passphrase and
+	"vagrant" for the password
+
 To add data to elastic, copy and paste a few lines from the favorites_insert.txt file provided
 
 To see a visualization of the data, open this url in a browser
