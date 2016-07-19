@@ -10,9 +10,18 @@ Dependencies
 	Vagrant 
 	https://www.vagrantup.com/downloads.html
 
+	Git shell (preferred) with the bottom option clicked for altering Path variable
+	http://blog.osteel.me/posts/2015/01/25/how-to-use-vagrant-on-windows.html
+	https://git-scm.com/download/win
+
 Once cloned, run a shell into the location and run the command:
 	
 	vagrant up
+
+If getting errors with setting hostname
+	
+	delete this line from the Vagrant file
+	https://github.com/porivas/windows_elasticsearch/blob/master/Vagrantfile#L17
 
 This does the following
 	
