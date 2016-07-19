@@ -10,9 +10,11 @@ Dependencies
 	Vagrant 
 	https://www.vagrantup.com/downloads.html
 
-	Git shell (preferred) with the bottom option clicked for altering Path variable
-	http://blog.osteel.me/posts/2015/01/25/how-to-use-vagrant-on-windows.html
+	Git shell (preferred) 
 	https://git-scm.com/download/win
+
+	with the bottom option clicked for altering Path variable
+	http://blog.osteel.me/posts/2015/01/25/how-to-use-vagrant-on-windows.html
 
 Once cloned, run a shell into the location and run the command:
 	
