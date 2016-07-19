@@ -13,7 +13,7 @@ Dependencies
 	Git shell (preferred) 
 	https://git-scm.com/download/win
 
-	with the bottom option clicked for altering Path variable
+	When installing the git shell click the bottom option for altering Path variable
 	http://blog.osteel.me/posts/2015/01/25/how-to-use-vagrant-on-windows.html
 
 Once cloned, run a shell into the location and run the command:
