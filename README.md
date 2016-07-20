@@ -1,7 +1,6 @@
 # windows_elasticsearch
 
-A virtual machine that installs elasticsearch to sandbox and test locally.
-works on both mac and windows
+A virtual machine that installs elasticsearch to sandbox and test locally. Works for both mac and windows
 
 Dependencies
 	
