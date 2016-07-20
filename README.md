@@ -1,6 +1,7 @@
 # windows_elasticsearch
 
 A virtual machine that installs elasticsearch to sandbox and test locally
+works on both mac and windows
 
 Dependencies
 	
@@ -10,7 +11,7 @@ Dependencies
 	Vagrant 
 	https://www.vagrantup.com/downloads.html
 
-	Git shell (preferred) 
+	Git shell (preferred, only for windows) 
 	https://git-scm.com/download/win
 
 	When installing the git shell click the bottom option for altering Path variable
